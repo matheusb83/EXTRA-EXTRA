@@ -1,1 +1,15 @@
-
+#exibir se for par ou impar
+inicio:
+ n1 = (input("digite um valor: "))
+try:
+    n1 = int(n1)
+    if (n1 %2==0):
+        if (n1>100) and (n1 %2==0):
+            print ("par e alto")
+        if (n1<=100) and (n1 %2==0):
+            print ("par e baixo")
+    if (n1 %2==1):
+        print ("impar")
+except:
+    print ("entrada invalida") 
+fim.
