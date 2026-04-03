@@ -1,0 +1,18 @@
+#organizar o resto da divisão em ordem decrescente.
+inicio:
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite um número: "))
+n3 = int(input("Digite um número: "))
+
+print(sorted([n3 % 3, n2 % 3, n1 % 3], reverse=True))
+fim.
+
+
+#teste com sorted, e reverse=True
+inicio:
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite um número: "))
+n3 = int(input("Digite um número: "))
+
+print (sorted([n1, n3 , n2], reverse=True))
+fim.
