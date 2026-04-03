@@ -1,1 +1,13 @@
-
+#menor, medio, grande, zero ou negativo
+inicio:
+ n1 = int(input("digite um valor: "))
+if (n1>0):
+    if (n1<10):
+        print ("pequeno")
+    if (n1>=10) and (n1 <=100):
+            print ("medio")
+    if (n1>100):
+            print ("grande")
+else: 
+    print ("zero ou negativo") 
+fim.
