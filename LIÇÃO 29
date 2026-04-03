@@ -1,1 +1,11 @@
-
+#se for multiplo de 5
+inicio:
+ n1 = int(input("digite um valor: "))
+if (n1 %5 == 0):
+    if (n1>50):
+        print ("alto ")
+    else: 
+        print ("baixo")
+else:
+    print ("não é multiplo") 
+fim.
