@@ -1,1 +1,14 @@
+#exibir os valores se for inteiro mostre o dobro, se for real mostre a metade
+inicio:
+ n1 = (input("digite um valor: "))
+try:
+    n1 = int(n1)
+    print (n1*2)
+except:
+    try:
+        n1 = float(n1)
+        print (n1/2)
+    except: 
+        print ("ivalido") 
+fim.                              #descobri que pode dar 2 trys.
 
