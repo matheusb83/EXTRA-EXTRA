@@ -1,1 +1,11 @@
 #POSITIVO, MULTIPLO DE 2
+inicio:
+ n1 = int(input("digite um numero: "))
+if (n1>0):
+    if (n1 %2 == 0) and (n1 %3 == 0):
+        print ("multiplo de 2 e de 3")
+else:
+    print ("não atende")
+if (n1<0):
+    print ("é negativo") 
+fim.
