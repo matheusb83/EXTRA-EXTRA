@@ -1,1 +1,9 @@
-
+#se for numerico, converta pra float e mostre a divisão por 2
+inicio:
+ n1 = (input("digite um valor: "))
+try:
+    n1 = float(n1)
+    print (n1 / 2)
+except:
+    print ("não numerico") 
+fim.
