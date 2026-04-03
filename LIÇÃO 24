@@ -1,1 +1,12 @@
-
+#intervalo de 1 a 100, par no intervalo, impar no intervalo, fora do intervalo.
+inicio:
+ n1 = int(input("digite um valor: "))
+if (n1>=1) and (n1<=100):
+    if (n1 %2==0):
+        print ("Par e no intervalo")
+    else:
+        print ("impar e no intervalo")
+else:
+   print ("não está no intervalo de 1 a 100")
+   print (n1)                                        #e ainda mostra qual foi o numero digitado.
+fim.
