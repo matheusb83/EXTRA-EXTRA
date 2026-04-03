@@ -1,1 +1,9 @@
-
+#se for positivo = calcular. se for negativo = exibir produto 
+inicio:
+ n1 = int(input("digite um valor: "))
+n2 = int(input("digite um valor: "))
+if (n1 and n2 >=0):
+    print (n1 + n2)
+else: 
+    print (n1 * n2)
+fim.                           #descobri que produto é a muliplicação. :) 
