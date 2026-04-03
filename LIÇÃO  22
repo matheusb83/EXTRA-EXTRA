@@ -1,1 +1,13 @@
-
+#10 é alto ou baixo, converter pra inteiro, caso não converta pra interiro mostrar invalido.
+inicio:
+ n1 = (input("digite um numero: "))
+try:
+    n1 = int(n1)
+    if (n1>10):
+        print ("alto")
+    else:
+        print ("baixo")
+except:
+    (type(n1))
+    print ("invalido") 
+fim.
